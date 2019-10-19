@@ -22,7 +22,7 @@ public class gameLoop : MonoBehaviour
     {
         if (myturn)
         {
-            Debug.Log(sphere.echec);
+           // Debug.Log(sphere.echec);
             if (haveToCreate)
             {
                 clone = Instantiate(myPrefab, new Vector3(-1.5f, 17, -1.5f), Quaternion.identity);

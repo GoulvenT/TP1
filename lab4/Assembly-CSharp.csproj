@@ -57,8 +57,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Collider.cs" />
     <Compile Include="Assets\colorChange.cs" />
     <Compile Include="Assets\gameLoop.cs" />
+    <Compile Include="Assets\physic.cs" />
     <Compile Include="Assets\sphere.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

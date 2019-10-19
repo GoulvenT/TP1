@@ -11,10 +11,11 @@ public class sphere : MonoBehaviour
     public static Boolean hasGravity = false;
     public static Boolean echec = false;
     public static Boolean win = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        boule.useGravity = false;
+        physic.setUsed(false);
     }
 
     public static void  setGravity(Boolean b)
@@ -35,23 +36,24 @@ public class sphere : MonoBehaviour
         if (collide == arrive.GetComponent<Collider>())
         {
             hasGravity = false;
-            boule.velocity = Vector3.zero;
+           // boule.velocity = Vector3.zero;
+           physic.setUsed(false);
             win = true;
         }
-
-        if (collide == fail.GetComponent<Collider>())
-        {
-
-            echec = true ;
-        }
-        
+        if (collide == fail.GetComponent<Collider>()) echec = true;
     }
 
     void Update()
     {
         if (hasGravity)
         {
-            boule.useGravity = true;
+            //boule.useGravity = true;
+            physic.setUsed(true);
+        }
+        else
+        {
+            physic.setUsed(false);
         }
     }
+    
 }
