@@ -3,25 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="110eb681-7fa6-4c05-846b-a145c9663d50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Physic Material.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Physic Material.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Collider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Collider.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/gameLoop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/gameLoop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/physic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/physic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/sphere.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sphere.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/tp1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tp1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/205750-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/205750-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/740bad-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/740bad-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/42/42094c66d6193ab4bbf71bbe07a8b341" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/42/42094c66d6193ab4bbf71bbe07a8b341" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/42/42094c66d6193ab4bbf71bbe07a8b341.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/42/42094c66d6193ab4bbf71bbe07a8b341.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/68/68733130f19c22e4281ef44fe51b9085" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/68/68733130f19c22e4281ef44fe51b9085" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/97/978c95efff731c449b7628148772c640" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/97/978c95efff731c449b7628148772c640" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/e5/e5f9ad7688211764395e40e598f67474" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e5/e5f9ad7688211764395e40e598f67474" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +38,23 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/physic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Collider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CollidingObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/gameLoop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/sphere.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/collisioneurCylindre.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/theBall.cs" />
         <option value="$PROJECT_DIR$/Assets/colorChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/gameLoop.cs" />
-        <option value="$PROJECT_DIR$/Assets/sphere.cs" />
+        <option value="$PROJECT_DIR$/Assets/PhysicsObject.cs" />
         <option value="$PROJECT_DIR$/Assets/physic.cs" />
         <option value="$PROJECT_DIR$/Assets/Collider.cs" />
+        <option value="$PROJECT_DIR$/Assets/gameLoop.cs" />
+        <option value="$PROJECT_DIR$/Assets/sphere.cs" />
+        <option value="$PROJECT_DIR$/Assets/CollidingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/collisioneurCylindre.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +108,8 @@
       <workItem from="1571252628636" duration="4318000" />
       <workItem from="1571433854542" duration="7624000" />
       <workItem from="1571510856687" duration="12616000" />
+      <workItem from="1571525200252" duration="128000" />
+      <workItem from="1571597880526" duration="15940000" />
     </task>
     <servers />
   </component>

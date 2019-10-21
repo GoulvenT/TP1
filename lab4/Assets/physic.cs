@@ -40,18 +40,18 @@ public class physic : MonoBehaviour
             actor.AddForce(actor.velocity.x,  (float)gravity, actor.velocity.z, ForceMode.Acceleration);
         }
 
-        if (Collider.collision) // en cas de collision, on recupere le coordonnees de la sphere pour les donner en param de la fonction bounce
+       /* if (Collider.collision) // en cas de collision, on recupere le coordonnees de la sphere pour les donner en param de la fonction bounce
         {
             Bounce(Collider.contactPoint);
-        }
+            Debug.Log(Collider.contactPoint);
+        }*/
     }
     
   /*  private void OnCollisionEnter(Collision collision)
     {
         Bounce(collision.contacts[0].normal);
     }*/
-
-    private void Bounce(Vector3 collisionNormal)
+  private void Bounce(Vector3 collisionNormal)
     {
         var speed = lastFrameVelocity.magnitude * 10;
         //var direction = Vector3.Reflect(lastFrameVelocity.normalized, collisionNormal);
